@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Basic Portfolio</title>
+		<link rel="stylesheet" href="./assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	</head>
+	<body>
+		<nav>
+            <div id="nav-container">
+                <div id="name"><h1>Richard Selznick</h1></div>
+                <div id="nav">
+                    <a href="index.html">About</a> | 
+                    <a href="portfolio.html">Portfolio</a> | 
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <section>
+                <div id="content">
+                    <header><h1>Contact</h1></header>
+                    <form id="top-form">
+                        <label>Name</label>
+                        <input type="text" name="name" placeholder="John Smith"><br/>
+                        <label>Email</label>
+                        <input type="text" name="email" placeholder="example@gmail.com">
+                        <label>Message</label>
+                        <textarea name="message" form="top-form" style="height:200px;" placeholder="Enter your message here.. "></textarea><br/>
+                        <input type="submit" value="Submit" id="submit">
+                    </form>
+                    
+                </div>
+            </section>
+            <aside>
+                <div id="nav-content">
+                    <h2>Connect with Me</h2>
+                    <hr>
+                    <a href="https://www.github.com/richardselz/"><img src="assets/images/git.png" alt="GitHub"></a>
+                    <a href="https://www.linkedin.com/in/selznick"><img src="assets/images/linked.png" alt="LinkedIn" class="image-margin"></a>
+                    <a href="https://stackoverflow.com/users/8361229/richardselz"><img src="assets/images/stack.png" alt="Stack Overflow" class="image-margin"></a>
+                </div>
+            </aside>
+        </main>
+        <footer> <!--id="footer-fixed" (move this into the footer tag)-->
+            <div id="copyright">
+                &copy; Copyright 2017 Richard Selznick
+            </div>
+        </footer>
+	</body>
+</html>

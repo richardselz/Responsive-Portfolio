@@ -1,0 +1,452 @@
+*{
+	margin: auto;
+}
+
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-image: url("../images/background.png");
+    color: #777777;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h1 {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+nav {
+    width: 100%;
+    background: white;
+    height: 80px;
+    border-bottom: 2px #cccccc solid;
+    color: #cccccc;
+}
+
+nav a {
+    text-decoration: none;
+    color: #cccccc;
+    line-height: 80px;
+    margin: 0 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+nav a:nth-child(3) {
+    margin-right: 0;
+}
+
+nav a:hover {
+	text-decoration: none;
+    color: #000000;
+}
+
+#nav-container {
+    	width: 960px;
+    	margin: 0 auto;
+}
+
+#name {
+    width: 250px;
+    background: #4aaaa5;
+    height: 80px;
+    float: left;
+    text-align: center;
+    line-height: 80px;
+    color: white;
+}
+
+#nav {
+    float: right;
+}
+
+main {
+    margin: 40px auto;
+    width: 960px;
+}
+
+section {
+    border: 1px #cccccc solid;
+    width: 650px;
+    float: left;
+    background: white;
+    margin-bottom: 40px;
+}
+
+#content {
+    margin: 40px auto;
+    width: 586px;
+}
+
+p {
+    top: -6px;
+    font-size: 20px;
+    letter-spacing: 0.25px;
+    line-height: 31px;
+    position: relative;
+}
+
+aside {
+    border: 1px #cccccc solid;
+    width: 270px;
+    float: right;
+    background: white;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: #cccccc;
+    margin: 20px 0;
+}
+
+#nav-content {
+    width: 210px;
+    margin: 30px auto 120px;
+}
+
+#nav-content img {
+    border: 0;
+    margin: 0;
+    width: 60px;
+    height: 60px;
+    display: inline;
+    float: left;
+}
+
+.image-margin {
+    margin-left: 15px !important;
+}
+
+a:hover img {
+    opacity: 0.5;
+}
+
+header {
+    color: #4aaaa5;
+    height: 50px;
+    line-height: 30px;
+    border-bottom: 3px #ccc solid;
+    margin-bottom: 30px;
+}
+
+img {
+    display: inline-block;
+    float: left;
+    margin: 0 25px 0 0;
+    width: 200px;
+    height: 152px;
+}
+
+footer {
+    width: 100%px;
+    height: 95px;
+    background: #666666;
+    clear: both;
+    border-top: 10px #4aaaa5 solid;
+}
+
+#footer-fixed {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#copyright {
+    text-align: center;
+    line-height: 95px;
+    color: #cccccc;
+}
+
+.hangman {
+    background-image: url("http://lorempixel.com/g/275/205/");
+    width: 275px;
+    height: 205px;
+    float: left;
+    border: 0;
+}
+
+.hangman:nth-child(2) {
+    margin-left: 36px;
+}
+
+.hangman a {
+    text-decoration: none;
+    color: white;
+}
+
+.hangman a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.hangman > a > h2 {
+    border: 0;
+    position: relative;
+    top: 130px;
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    font-size: 25px;
+    line-height: 60px;
+    background: #4aaaa5;
+    color: white;
+    font-weight: normal;
+}
+
+.portfolio-row {
+    border: 0;
+    height: 205px;
+    margin-bottom: 60px;
+}
+
+input {
+    width: 574px;
+    height: 35px;
+    float: left;
+    border: 1px #cccccc solid;
+    padding-left: 10px;
+    color: #cccccc;
+}
+
+input:focus {
+	border: 1px #4aaaa5 solid;
+	outline: none;
+}
+
+input::placeholder {
+    color: #cccccc;
+}
+
+label {
+	float: left;
+	margin-bottom: 5px;
+}
+
+label:not(:first-child) {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+textarea {
+    float: left;
+    margin: 0 0 20px;
+    display: inline-block;
+    border: 1px #cccccc solid;
+    color: #cccccc;
+    padding-left: 10px;
+    width: 572px;
+}
+
+textarea:focus {
+	border: 1px #4aaaa5 solid;
+	outline: none;
+}
+
+textarea::placeholder {
+	color: #cccccc;
+}
+
+#submit {
+    width: 115px;
+    background: #4aaaa5;
+    border: 0;
+    color: white;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+
+#submit:hover {
+	opacity: 0.75;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 980px){
+    section {
+        width: 420px;
+    }
+    
+    main {
+        width: 730px;
+    }
+    
+    #content {
+        width: 358px;
+    }
+    
+    img {
+        width: 358px;
+        height: 270px;
+        margin-bottom: 20px;
+    }
+    
+    #nav-container {
+    	width: 730px;
+    }    
+    
+    .hangman {
+        width: 350px;
+        height: 268px;
+        margin-bottom: 55px;
+    }
+    
+    .hangman:nth-child(2) {
+        margin-left: 0px;
+    }
+    
+    .hangman > a > h2 {
+        top: 200px;
+    }
+    
+    input {
+        width: 346px;
+    }
+    
+    textarea {
+        width: 344px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    section {
+        width: 728px;
+    }
+    
+    main {
+        width: 728px;
+    }
+    
+    #content {
+        width: 666px;
+    }
+    
+    img {
+        width: 334px;
+        height: 249px;
+        margin-bottom: 20px;
+    }
+    
+    #nav-container {
+    	width: 728px;
+    }
+    
+    aside {
+        width: 728px;
+        height: 200px;
+        margin-bottom: 40px;
+    }
+    
+    #nav-content {
+        float: left;
+        margin-left: 30px;
+        width: 536px;
+    }
+      
+    .hangman {
+        width: 313px;
+        height: 236px;
+        margin-bottom: 40px;
+    }
+    
+    .hangman:nth-child(2) {
+        margin-left: 40px;
+    }
+    
+    .hangman > a > h2 {
+        top: 166px;
+    }
+    
+    input {
+        width: 655px;
+    }
+    
+    textarea {
+        width: 653px;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    #name {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #nav {
+        width: 100%;
+        background: white;
+    }
+    
+    nav a {
+        line-height: 64px;
+        margin: 0 70px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    section {
+        width: 600px;
+        margin-top: 20px;
+    }
+    
+    main {
+        width: 600px;
+    }
+    
+    #content {
+        width: 540px;
+    }
+    
+    img {
+        width: 540px;
+        height: 400px;
+        margin-bottom: 20px;
+    }
+    
+    #nav-container {
+    	width: 100%;
+    }
+    
+    aside {
+        width: 600px;
+        height: 200px;
+        margin-bottom: 40px;
+    }
+    
+    #nav-content {
+        float: left;
+        margin-left: 30px;
+        width: 540px;
+    }
+      
+    .hangman {
+        width: 540px;
+        height: 400px;
+        margin-bottom: 40px;
+    }
+    
+    .hangman:nth-child(2) {
+        margin-left: 0px;
+    }
+    
+    .hangman > a > h2 {
+        top: 333px;
+    }
+    
+    input {
+        width: 528px;
+    }
+    
+    textarea {
+        width: 526px;
+    }
+}
+
